@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessia Frachea</title>
+    <style>
+        /* Updated styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffc0cb; /* Light pink background */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .headshot {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            background-color: #fff; /* White background for headshot */
+        }
+
+        .title {
+            font-size: 36px; /* Larger font size for title */
+            text-align: center; /* Center the title */
+        }
+
+        .subtitle {
+            font-size: 24px; /* Larger font size for subtitle */
+            text-align: center; /* Center the subtitle */
+        }
+
+        /* Center align the social media section */
+        .social-section {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        /* Define a fixed size for the social media boxes */
+        .social-box {
+            display: flex;
+            align-items: center; /* Center align items vertically */
+            margin: 10px auto; /* Center the boxes horizontally */
+            width: 150px; /* Fixed width for the social media boxes */
+            text-align: left; /* Left-align text within the boxes */
+        }
+
+        /* Rounded rectangular white box */
+        .social-box-container {
+            display: flex;
+            align-items: center; /* Center align items vertically */
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #fff; /* White background for boxes */
+            width: 150px; /* Fixed width for the text boxes */
+        }
+
+        /* Smaller circular image */
+        .social-icon {
+            width: 30px; /* Smaller circle size */
+            height: 30px; /* Smaller circle size */
+            border-radius: 50%;
+            background-color: #fff; /* White background for the circle */
+            margin-right: 10px; /* Add margin to the right for spacing */
+        }
+
+        /* Center the text within the text box and make it bold */
+        .social-box-container p {
+            margin: 0; /* Remove default margin */
+            text-align: left; /* Left-align text within the box */
+            font-weight: bold; /* Make the text bold */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="headshot" src="your-headshot.jpg" alt="Your Headshot">
+        <h1 class="title">Alessia Frachea</h1>
+        <p class="subtitle">Social media & tipping</p>
+    </header>
+    
+    <!-- Center the social media section in the middle of the page -->
+    <div class="social-section">
+        <div class="social-box">
+            <div class="social-box-container" onclick="window.location.href='https://www.instagram.com';">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-instagram-1946323-1646407.png" alt="Instagram Icon" class="social-icon">
+                <p>Instagram</p>
+            </div>
+        </div>
+        <div class="social-box">
+            <div class="social-box-container" onclick="window.location.href='https://www.tiktok.com';">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-tiktok-3089461-2567413.png" alt="Tik Tok Icon" class="social-icon">
+                <p>Tik Tok</p>
+            </div>
+        </div>
+        <div class="social-box">
+            <div class="social-box-container" onclick="window.location.href='https://www.venmo.com';">
+                <img src="https://cdn.icon-icons.com/icons2/413/PNG/256/Venmo_41071.png" alt="Venmo Icon" class="social-icon">
+                <p>Venmo</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
